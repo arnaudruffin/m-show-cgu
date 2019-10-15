@@ -18,7 +18,7 @@ mkdir /scripts/pre-init.d && \
 chmod -R 755 /scripts
 
 # Your app
-ADD app/index.html /app/index.html
+ADD app /app/
 
 # Exposed Port
 EXPOSE 8080
